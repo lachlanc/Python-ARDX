@@ -5,13 +5,6 @@ No previous coding experience is required to work through the exercises in this 
 See the [MDN JavaScript Reference](https:#developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) and <a href="https:#github.com/rwaldron/johnny-five">Johnny-Five</a> docs for more detail.
 
 
-## Variables
-
-    var myVar
-Use the comma operator to declare multiple variables in a single declaration e.g.
-
-    var x, y;
-
 ## Variable assignment
 
     foo = 0;
