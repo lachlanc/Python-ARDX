@@ -1,31 +1,14 @@
 <a id="intro"></a>
 ## ABOUT THIS GUIDE
 
-NodeBots are Arduino-based robots that are controlled by [node.js](http://nodejs.org/). 
+pyBots are Arduino-based robots that are controlled by [Python](http://Python.org/).
 
-This guide will step you through assembling and progamming a number of projects using an Arduino-compatible microcontroller and node.js, to help you get started building your own NodeBots. This guide has been designed to be used with the Arduino Experimenter's Kit, which is available from several suppliers, including SparkFun, AdaFruit, SEEED Studio and Freetronics.
+This guide will step you through assembling and programming a number of projects using an Arduino-compatible microcontroller and Python, to help you get started building your own NodeBots. This guide has been designed to be used with the Arduino Experimenter's Kit, which is available from several suppliers, including SparkFun, AdaFruit, SEEED Studio and Freetronics.
 
-The overall goal of the this guide is fun. Beyond this, the aim is to get you comfortable using node.js to control a wide range of electronic components through small, simple and easy circuits. The focus is to get each circuit working then to give you the tools to figure out how it works and how to extend it. 
+The overall goal of the this guide is fun. Beyond this, the aim is to get you comfortable using node.js to control a wide range of electronic components through small, simple and easy circuits. The focus is to get each circuit working then to give you the tools to figure out how it works and how to extend it.
 
 ![ARDX](/images/ARDX-cover.jpg "ARDX")
 
-<a id="installing"></a>
-### Installing
-
-You can install this guide to your own computer. Make sure you have node.js and the node package manager (npm) installed first.
-
-Install this guide with the following commands:
-
-`git clone https://github.com/AnnaGerber/node-ardx.git && cd node-ardx`
-
-`npm install`
-
-
-Run the node-ardx web application from the node-ardx directory:
-
-`node app.js`
-
-Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the guide.
 
 <a id="openhardware"></a>
 ## ABOUT OPEN SOURCE HARDWARE
@@ -39,7 +22,7 @@ More details on the Creative Commons CC (By Share Alike) License can be found at
 <a id="j5"></a>
 ## ABOUT JOHNNY-FIVE
 
-We will be working with the [Johnny-Five](https://npmjs.org/package/johnny-five) library for node.js to program our nodebots. Johnny-Five uses a protocol called [Firmata](http://firmata.org/wiki/Main_Page) to communicate with the microcontroller over USB (Universal Serial Bus).
+We will be working with the [Pyfirmata](https://github.com/tino/pyFirmata) library for Python to program our Arduinos. Pyfirmata uses a protocol called [Firmata](http://firmata.org/wiki/Main_Page) to communicate with the microcontroller over USB (Universal Serial Bus).
 
 <a id="firmata"></a>
 ### Setting Up Firmata
@@ -67,9 +50,9 @@ Run code examples from the terminal e.g.
 `node code/CIRC01-code-led-a-strobe.js`
 
 <a id="repl"></a>
-### Using the REPL
-
-Johnny-Five provides a Read-Eval-Print-Loop (REPL) that allows you type commands to control hardware interactively while your program is running. See the exercises for examples.
+### Using Ipython Notebook
+# re write this bit
+I Python notebook  provides a Read-Eval-Print-Loop (REPL) that allows you type commands to control hardware interactively while your program is running. See the exercises for examples.
 
 ## License
 
